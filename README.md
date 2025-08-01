@@ -48,7 +48,7 @@ Fully offline — no data leaves your computer.
 🧰 Create Your Own .exe
 ```bash
 pyinstaller --onefile --windowed ^
-    --add-data ".venv/lib/site-packages/rembg/bg/models;rembg/bg/models" ^
+    --add-data "backgroundremover/models;rembg/bg/models" ^
     --icon=icon.ico ^
     Ninja_Bg_Rm.py
 ````    
